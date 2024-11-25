@@ -1,0 +1,30 @@
+.slider {
+  position: relative;
+}
+
+.slider_images {
+  position: relative;
+}
+
+.slider_numbers {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  left: 30%;
+}
+
+.slider_numbers_container {
+  display: flex;
+  p {
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
